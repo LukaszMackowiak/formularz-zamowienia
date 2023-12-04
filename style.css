@@ -1,0 +1,82 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+main {
+    background-color: rgb(243, 243, 243);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 3%;
+    box-shadow: 6px 6px 40px rgb(197, 197, 197);
+    color: rgb(68, 68, 68);
+}
+
+footer {
+    padding-top: 40px;
+}
+
+#imie {
+    width: 37%;
+    height: 25px;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+#data {
+    width: 12%;
+    height: 25px;
+}
+
+#zestaw {
+    background-color: white;
+    border: 1px solid rgb(202, 202, 202);
+    width: 30%;
+    height: 35px;
+}
+
+legend {
+    padding-right: 32%;
+}
+
+#zamowienie {
+    width: 40%;
+    height: 55px;
+    margin-right: 12px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 4%;
+}
+
+#zaplata {
+    width: 18%;
+    height: 55px;
+    margin-left: 12px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 4%;
+}
+
+#wyczysc {
+    background-color: rgb(136, 136, 136);
+    color: white;
+    border: 0px solid #fff;
+    width: 15%;
+    height: 30px;
+    border-radius: 6%;
+    margin-right: 10px;
+}
+
+#submit {
+    background-color: rgb(30, 163, 81);
+    color: white;
+    border: 0px solid #fff;
+    width: 15%;
+    height: 30px;
+    border-radius: 6%;
+    margin-left: 10px;
+}

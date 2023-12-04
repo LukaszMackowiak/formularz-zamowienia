@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Formularz zamówienia</h1>
+    </header>
+    <main>
+        <form>
+            <p>
+                <legend>Imię:</legend>
+                <label for="imie">
+                    <input type="text" id="imie" name="imie" required /></label>
+            </p>
+            <p>
+                <label for="data">Data zamówienia:
+                    <input type="time" id="data" name="data" required /></label>
+            </p>
+            <p>
+                <label for="zestaw">
+                    <select id="zestaw" name="zestaw" placeholder="Wybierz zestaw">
+                        <option>Wybierz zestaw</option>
+                        <optgroup label="Zestaw dla dzieci">
+                            <option value="10">Zestaw 1</option>
+                            <option value="15">Zestaw 2</option>
+                        </optgroup>
+                        <optgroup label="Zestaw dla dorosłych">
+                            option value="18">Zestaw 1</option>
+                            <option value="20">Zestaw 2</option>
+                            <option value="25">Zestaw 3</option>
+                        </optgroup>
+                </label></select>
+            </p>
+            <h2>Kawa</h2>
+            <p>
+                <label for="czy_kawa">
+                    <input type="radio" id="czy_kawa" name="czy_kawa" /></label>
+                tak
+            </p>
+            <p>
+                <label for="mala">
+                    <input type="radio" id="mala" name="mala" /></label>
+                mała
+                <label for="srednia">
+                    <input type="radio" id="srednia" name="srednia" /></label>
+                średnia
+                <label for="duza">
+                    <input type="radio" id="duża" name="duza" /></label>
+                duza
+            </p>
+
+            <h2>Deser</h2>
+            <p>
+                <label for="czy_deser">
+                    <input type="radio" id="czy_deser" name="czy_deser" /></label>
+                tak
+            </p>
+            <p>
+                <label for="ciasto">
+                    <input type="radio" id="ciasto" name="ciasto" /></label>
+                ciasto
+                <label for="lody">
+                    <input type="radio" id="lody" name="lody" /></label>
+                lody
+                <label for="shake">
+                    <input type="radio" id="shake" name="shake" /></label>
+                shake
+            </p>
+
+            <div>
+                <label for="zamowienie">
+                    <input type="text" id="zamowienie" name="zamówienie" placeholder="Zamówienie" /></label>
+                <label for="zaplata">
+                    <input type="text" id="zaplata" name="zaplata" placeholder="Do zapłaty" /></label>
+            </div>
+            <p>
+                <button id="wyczysc">Wyczyść</button>
+                <button id="submit">Submit</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+        &copy; Łukasz Maćkowiak XXI c.
+    </footer>
+</body>
+
+</html>
